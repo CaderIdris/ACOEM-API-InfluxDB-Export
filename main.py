@@ -144,14 +144,14 @@ def fancy_print(
         )
 
 
-def get_json(pathToJson):
+def get_json(path_to_json):
     """Finds json file and returns it as dict
 
     Creates blank file with required keys at path if json file is not
     present
 
         Keyword Arguments:
-            pathToJson (str): Path to the json file, including
+            path_to_json (str): Path to the json file, including
             filename and .json extension
 
         Returns:
@@ -164,19 +164,19 @@ def get_json(pathToJson):
     """
 
     try:
-        with open(pathToJson, "r") as jsonFile:
+        with open(path_to_json, "r") as jsonFile:
             try:
                 return json.load(jsonFile)
             except json.decoder.JSONDecodeError:
                 raise ValueError(
-                    f"{pathToJson} is not in the proper"
+                    f"{path_to_json} is not in the proper"
                     f"format. If you're having issues, consider"
                     f"using the template from the Github repo or "
                     f" use the format seen in README.md"
                 )
     except FileNotFoundError:
         raise FileNotFoundError(
-            f"{pathToJson} could not be found, use the "
+            f"{path_to_json} could not be found, use the "
             f"template from the Github repo or use the "
             f"format seen in README.md"
         )
