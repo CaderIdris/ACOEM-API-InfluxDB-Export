@@ -1,0 +1,12 @@
+{
+  "File Path": "",
+  "File Format": "both",
+  "Write to Influx": true,
+  "Debug Stats": false,
+  "Influx Bucket": "",
+  "Influx IP": "",
+  "Influx Port": "",
+  "Influx Token": "",
+  "Influx Organisation": ""
+
+}
