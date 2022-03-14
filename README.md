@@ -149,6 +149,7 @@ Makes a nicer output to the console
 **Valid options for _form_**
 | Option | Description |
 |---|---|
+
 |TITLE|Centres the string, one char at start and end|
 |NORM|Left aligned string, one char at start and end|
 |LINE|Prints line of *char* of specified *length*|
@@ -215,7 +216,7 @@ Handles requesting metadata and measurements from ACOEM UK API
 
 **dl_station_metadata**
 
-Downlaods metadata for stations associated with user from ACOEM UK API
+Downloads metadata for stations associated with user from ACOEM UK API
 
 - Keyword Arguments
 None
