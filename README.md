@@ -149,7 +149,6 @@ Makes a nicer output to the console
 **Valid options for _form_**
 | Option | Description |
 |---|---|
-
 |TITLE|Centres the string, one char at start and end|
 |NORM|Left aligned string, one char at start and end|
 |LINE|Prints line of *char* of specified *length*|
