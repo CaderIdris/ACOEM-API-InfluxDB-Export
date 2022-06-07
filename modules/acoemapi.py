@@ -14,12 +14,12 @@ then downloads sensor measurements over a specified time period.
 """
 
 __author__ = "Idris Hayward"
-__copyright__ = "2021, The University of Surrey & National Physical Laboratory"
+__copyright__ = "2021, Idris Hayward"
 __credits__ = ["Idris Hayward"]
 __license__ = "GNU General Public License v3.0"
 __version__ = "1.0"
 __maintainer__ = "Idris Hayward"
-__email__ = "j.d.hayward@surrey.ac.uk"
+__email__ = "CaderIdrisGH@outlook.com"
 __status__ = "Stable Release"
 
 import requests as req
