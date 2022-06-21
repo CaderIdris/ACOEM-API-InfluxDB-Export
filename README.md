@@ -186,7 +186,7 @@ Saves string to text file, format specified in filename
 | Argument | Type | Usage | Required? | Default |
 |---|---|---|---|---|
 |*write_data*|`str`|Text to be written to file|Y|None|
-|*path_to_file|`str`|Path to save file to, can be relative to working directory, do not add / to end|Y|None|
+|*path_to_file*|`str`|Path to save file to, can be relative to working directory, do not add / to end|Y|None|
 |*filename*|`str`|Name of file, including filetype e.g data.csv|Y|None|
 
 
@@ -253,7 +253,7 @@ Copy of measurement_data instance (`dict`)
 
 **get_metadata**
 
-Returns copt of metadata
+Returns copy of metadata
 
 - Keyword Arguments
 
