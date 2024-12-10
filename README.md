@@ -1,7 +1,8 @@
 <h1 align="center">
-ACOEM UK API InfluxDB Export Tool
+ARCHIVED - ACOEM UK API InfluxDB Export Tool
 </h1>
 
+This project has been archived as, as far as I can tell, this API has been deprecated for over a year now and I no longer use it myself.
 
 **Contact**: CaderIdrisGH@outlook.com
 
